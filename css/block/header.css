@@ -41,3 +41,11 @@
     background-color: white;
     color: #0078D7;
   }
+
+/*Responsive*/
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
