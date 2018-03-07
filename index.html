@@ -6,50 +6,50 @@
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/block/header.css">
+    <link rel="stylesheet" href="css/block/banner.css">    
+    <link rel="stylesheet" href="css/block/articles.css">
+    <link rel="stylesheet" href="css/block/footer.css">    
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,700,800,900" rel="stylesheet"> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>    
   </head>
   <body>
-      <header class="cabecalho">
-      <!--  Cabeçalho  -->
-        <div class="navegacao">
-        <h1 class="logo">&#60Aprendiz de Front-end&#62</h1>
-        <nav>
-          <ul class="menuPrincipal">
-            <li class="menuPrincipal-item">
-              <a href="#" class="menuPrincipal-link">Home</a>
-            </li>
-            <li class="menuPrincipal-item">
-              <a href="#" class="menuPrincipal-link">Sobre</a>
-            </li>
-            <li class="menuPrincipal-item">
-              <a href="#" class="menuPrincipal-link">Contato</a>
-            </li>
-          </ul>
-        </nav>
+      <header class="header">
+        <div class="header__container">
+          <h1 class="header__logo">&#60Aprendiz de Front-end&#62</h1>
+          <nav>
+            <ul class="menuPrincipal">
+              <li class="menuPrincipal__item">
+                <a href="#" class="menuPrincipal__link">Home</a>
+              </li>
+              <li class="menuPrincipal__item">
+                <a href="#" class="menuPrincipal__link">Sobre</a>
+              </li>
+              <li class="menuPrincipal__item">
+                <a href="#" class="menuPrincipal__link">Contato</a>
+              </li>
+            </ul>
+          </nav>
         </div>          
       </header>
       <main>
-      <!--  Conteúdo principal  -->
         <section class="banner">
-          <div class="container">
-              <h1 class="banner-titulo">Pronto para aprender<br><strong>Front-end?</strong></h1>
-              <a href="#one" class="banner-botao">Start!</a>
+          <div class="banner__container">
+              <h1 class="banner__titulo">Pronto para aprender<br><strong>Front-end?</strong></h1>
+              <a href="#one" class="banner__botao">Start!</a>
           </div>
         </section>
-        <section class="principal-primeiro">
-          <div class="container">
-            <h2 class="principal-primeiro-titulo" id="one">Primeiro #1</h2>            
-            <h2 class="principal-primeiro-titulo" id="one">Aprenda HTML+CSS</h2>
-            <p>Com isso vc já consegue fazer bastante coisa!</p>
+        <section class="article">
+          <div class="article__container">
+            <h1 class="article__topico" id="one">Primeiro #01</h1>   
+            <h1 class="article__titulo" id="one">Aprenda HTML+CSS+JS</h1>
+            <p class="article__paragrafo">É o arroz com feijão do Front-end. <br> Não se preocupe por enquanto com bibliotecas, frameworks ou pré-processadores. Construa uma base sólida nos conceitos básicos.</p>
           </div>
         </section>
-        
       </main>
   </body>    
-  <footer>
-  <!--  Rodapé  -->
-    <div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+  <footer class="footer">
+    <div>Erick Nishimoto 2018 | Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a>.</div>
   </footer>
 </html>
