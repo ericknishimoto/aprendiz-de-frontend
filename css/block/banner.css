@@ -81,7 +81,7 @@ transform: scale(1.1);
 }
 
 /*Responsive*/
-@media (max-width: 1000px){
+@media (max-width: 30em){
   .banner__botao{
       padding: 2rem 1rem;
   width: 20rem;
