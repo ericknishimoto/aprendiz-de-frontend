@@ -45,7 +45,7 @@
 /*Responsive*/
 @media (max-width: 30em){
   .header__logo  {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .menuPrincipal__item{
     display: none;
