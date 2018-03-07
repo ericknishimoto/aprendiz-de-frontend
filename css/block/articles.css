@@ -1,6 +1,5 @@
 .article{
   display: flex;   
-  width: 100%;
   height: 100vh;
   align-items: center;
   background-color: white;
@@ -25,16 +24,17 @@
   font-size: 3rem;
   font-weight: 600; 
   padding: 2rem;
+  margin-top: -10vh;
 }
 
-.article__titulo {
+.article__titulo {   
   color: #555;
   font-size: 4rem;
   font-weight: 600;  
   padding: 1rem;  
 }
 
-.article__paragrafo{
+.article__paragrafo{ 
   font-size: 1.2rem;
   margin: 1rem;
   margin-bottom: 3rem;
@@ -84,4 +84,25 @@
 .button--white-blue:hover{
   background-color: white;
   color: #0078D7;  
+}
+
+/*Responsive*/
+
+@media (max-width: 30em) {
+  .article__topico{
+    font-size: 2.2rem;
+  }  
+  .article__titulo {   
+    font-size: 2.7rem;
+  }
+
+  .article__paragrafo{ 
+    font-size: 1.5rem;
+  }
+
+  .button{
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+    margin: 2rem;
+  }
 }

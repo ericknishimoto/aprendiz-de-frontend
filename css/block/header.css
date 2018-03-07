@@ -41,3 +41,13 @@
     background-color: white;
     color: #0078D7;
   }
+
+/*Responsive*/
+@media (max-width: 30em){
+  .header__logo  {
+    font-size: 1.4rem;
+  }
+  .menuPrincipal__item{
+    display: none;
+  }
+}
