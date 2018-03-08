@@ -3,3 +3,9 @@ html {
   text-align: center;  
   color: #555;
 }
+
+a {
+  text-decoration: none;
+  color: #0078D7;
+  font-weight: bold;
+}
