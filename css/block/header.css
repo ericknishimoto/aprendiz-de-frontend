@@ -1,9 +1,9 @@
 .header{ 
     display: flex;
-    padding: 2.5rem;
+    height: 6rem;
     box-sizing: border-box; 
-    justify-content: center;  
-    background-color: #0078D7;
+    justify-content: center;   
+    background-color: #0078d7e3;
   }
   
   .header__container{
@@ -41,3 +41,16 @@
     background-color: white;
     color: #0078D7;
   }
+
+/*Responsive*/
+@media (max-width: 30em){
+ .header__container{
+    justify-content: center;
+  }
+  .header__logo  {
+    font-size: 1.3rem;
+  }
+  .menuPrincipal__item{
+    display: none;
+  }
+}
