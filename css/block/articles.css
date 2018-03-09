@@ -1,6 +1,6 @@
 .article{
   display: flex;   
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
   background-color: white;
   justify-content: center;
@@ -23,21 +23,20 @@
   color: #555;
   font-size: 3rem;
   font-weight: 600; 
-  padding: 2rem;
-  margin-top: -10vh;
 }
 
 .article__titulo {   
   color: #555;
   font-size: 4rem;
   font-weight: 600;  
-  padding: 1rem;  
+  padding: 1rem;
+  padding-bottom: 1.5rem;
 }
 
 .article__paragrafo{ 
   font-size: 1.2rem;
   margin: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   line-height: 1.5rem;
 }
 
@@ -46,14 +45,13 @@
 }
 
 .button{
-  position: relative;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 1.5px;
   border-radius: 3rem;
   padding: 0.4rem 1rem;
   transition: 0.2s; 
-  margin: 2rem;
+  margin-bottom: 2rem;
 }
 
 .button--grey{
@@ -93,16 +91,18 @@
     font-size: 2rem;
   }  
   .article__titulo {   
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .article__paragrafo{ 
     font-size: 1.2rem;
+    margin: 2rem 1rem;
+    margin-top: .5rem;
   }
 
   .button{
     font-size: 1.2rem;
     padding: 0.6rem 1rem;
-    margin: 2rem;
+    margin: 1rem;   
   }
 }
