@@ -17,7 +17,6 @@
 .article__container{
   max-width: 900px;
   margin: 2rem;
-  z-index: 1;
 }
 
 .article__topico{
@@ -40,9 +39,6 @@
   margin: 1rem;
   margin-bottom: 3rem;
   line-height: 1.5rem;
-}
-.article__paragrafo--white{ 
-  background-color: white;
 }
 
 .article--white{
@@ -88,10 +84,6 @@
 .button--white-blue:hover{
   background-color: white;
   color: #0078D7;  
-}
-
-.bg-one {
-  position: relative;  
 }
 
 /*Responsive*/

@@ -21,7 +21,7 @@
   text-align: center;
   font-weight: medium;  
   animation: desce 1s, aparece 2s;  
-  margin-top: -10vh;
+  margin-top: -20vh;
 }
 .banner__titulo strong{
   font-size: 7rem;
